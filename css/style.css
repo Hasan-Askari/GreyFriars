@@ -1,14 +1,47 @@
-.container{
+.container {
   max-width: 1600px;
 }
-.header{
+.header {
   height: 300px;
-  position: fixed;
+  position: absolute;
+  padding: 0%;
   left: 0px;
   top: 0px;
   width: 100%;
 }
-.banner_section{
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  display: inline block;
+  flex: 33.33%;
+  margin: 0;
+  padding: 0;
+  width: 0px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  background-color: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline block;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+
+a:hover {
+  color: black;
+}
+
+.banner_section {
   height: 100vh;
   background-image: url('../img/banner.jpg');
   background-position: center center;
@@ -16,23 +49,32 @@
   background-size: cover;
 }
 
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-li{
-  display: inline block;
-}
-
-li left {
-  float: left;
+.section1 {
+  height: 500px;
+  padding: 0%;
+  left: 0px;
+  top: 0px;
+  width: 100%;
 }
 
-li right {
-  float: right;
+.stay {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-weight: bolder;
 }
 
-a {
-  display: block;
+.stay1 {
+  background-image: url('../img/stay1.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.stay2 {
+  background-image: url('../img/stay2.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
 }
