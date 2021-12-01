@@ -1,5 +1,6 @@
 .container {
-  max-width: 1170px;
+  max-width: 1100px;
+  padding: 0;
 }
 
 .header {
@@ -51,11 +52,7 @@ a:hover {
 }
 
 .stay {
-  max-width: 1100px;
-  max-height: 1080px;
-  display: block;
-  margin: auto;
-  margin-top: 130px;
+  margin-top: 80px;
 }
 
 .heading {
@@ -78,11 +75,9 @@ a:hover {
 .bottom-left{
   position: absolute;
   left: 50px;
+  bottom: 16px;
   color: white;
   text-align: left;
-}
-.bottom-left ul {
-  padding: 0;
 }
 
 .top-left {
@@ -92,6 +87,43 @@ a:hover {
   color: white;
 }
 
-.btn {
+.label.btn {
   margin: 50px;
+}
+
+.view-more {
+  padding-top: 20px;
+}
+
+.history {
+  background-image: url('../img/Group 104.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  margin-top: 100px;
+}
+
+.right-img {
+  background-image: url('../img/history-img.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  
+}
+
+.history-text {
+  padding: 50px 0;
+  margin: 50px;
+}
+
+.btn {
+  padding: 0;
+}
+
+.fal {
+  position: relative;
+  top: 12px;
+  left: 15px;
 }
