@@ -4,7 +4,7 @@
 }
 
 .header {
-  height: 300px;
+  /* height: 300px; */
   position: absolute;
   padding: 0%;
   left: 0px;
@@ -91,15 +91,16 @@ a:hover {
   margin: 50px;
 }
 
-.view-more {
-  padding-top: 20px;
+.stay-btn {
+  margin-top: 50px;
 }
 
 .history {
-  background-image: url('../img/Group 104.png');
-  background-position: center center;
+  background-color: #E5E5E7;
+  background-image: url('../img/history-img.png');
+  background-position: right center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 44% 100%;
   height: 90vh;
   margin-top: 100px;
 }
@@ -114,16 +115,18 @@ a:hover {
 }
 
 .history-text {
-  padding: 50px 0;
+  padding: 20px 0;
   margin: 50px;
-}
-
-.btn {
-  padding: 0;
+  margin-left: 120px;
 }
 
 .fal {
   position: relative;
   top: 12px;
   left: 15px;
+}
+
+.accordian {
+  color: transparent;
+  margin-top: 50px;
 }
