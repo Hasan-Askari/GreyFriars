@@ -101,8 +101,8 @@ a:hover {
   background-position: right center;
   background-repeat: no-repeat;
   background-size: 44% 100%;
-  height: 90vh;
-  margin-top: 100px;
+  height: 100vh;
+  padding: 100px 0;
 }
 
 .right-img {
@@ -115,18 +115,37 @@ a:hover {
 }
 
 .history-text {
-  padding: 20px 0;
-  margin: 50px;
-  margin-left: 120px;
 }
 
-.fal {
-  position: relative;
-  top: 12px;
-  left: 15px;
+.accordion-button {
+  background: #E5E5E7;
 }
 
-.accordian {
-  color: transparent;
+.accordion {
   margin-top: 50px;
+}
+
+#flush-headingOne .accordion-button, #flush-headingTwo .accordion-button {
+  border-bottom: 1px solid #CDCDCE;
+}
+
+.accordion-body {
+  background: #E5E5E7;
+}
+
+.history-2 {
+  background-color: #A7844F;
+  background-position: right center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hist-2 {
+  padding: 50px;
+  width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
