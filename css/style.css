@@ -147,6 +147,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .hist-2 {
@@ -202,4 +203,76 @@ a:hover {
 
 .bn-text {
 
+}
+
+.features {
+  height: 100vh;
+  padding: 250px;
+}
+
+.management {
+  height: 100vh;
+  padding: 200px;
+}
+
+.footer {
+  height: 90vh;
+  padding: 80px;
+  background-color: #E5E5E7;
+}
+
+.footer-heading {
+  padding: 20px 0;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  float: left;
+  width: 33.33%;
+}
+
+.quick-links:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.subscribe {
+  padding-top: 30px;
+}
+
+input[type=email] {
+  background-color: #E5E5E7;
+  border-style: hidden hidden solid hidden;
+  width: 100%;
+  padding: 10px;
+}
+
+input[type=email]:focus {
+  outline: none;
+}
+
+.submit {
+  border: none;
+  background-color: #E5E5E7;
+  float: right;
+  outline: none;
+  padding: 20px 0;
+  font-size: larger;
+}
+
+.footer-logo {
+  padding-top: 50px;
+}
+
+.divider {
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+
+.footer p {
+  margin: 0;
+  padding-top: 30px;
+  font-size: x-small;
 }
